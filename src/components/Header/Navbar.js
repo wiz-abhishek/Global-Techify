@@ -1,43 +1,39 @@
-import React from 'react'
-import './navbar.css'
-import {NavLink} from 'react-router-dom';
+import React, { useState } from 'react';
+import './navbar.css';
 
 function Navbar() {
-  const activelink='activelink';
-  const normallink='normallink';
-  return (
-    <div className='navbar'>
-      <div className='logo'>logo</div>
-      <div className='links'>
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-        <NavLink to='/' 
-        className={({isActive})=>
-          isActive?activelink:normallink}>
-            <div>
-          Home</div>
-        </NavLink>
-        <NavLink to='/about' 
-         className={({isActive})=>
-          isActive?activelink:normallink}><div>
-            About</div>
-        </NavLink>
-        
-        <div className='link'>FAQ</div>
-        <NavLink to='/contactus' 
-         className={({isActive})=>
-          isActive?activelink:normallink}><div>
-            ContactUs</div>
-        </NavLink>
-        <div className='socialhandle'>
-            <div className='sociallink'>insta</div>
-            <div className='sociallink'>fb</div>
-            <div className='sociallink'>twitter</div>
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  return (
+    <div className='nvbr'>
+      <div className='logo'>logo</div>
+      <div className='domains'>
+        <div className='domains-header' onClick={toggleDropdown}>
+          Domains ▼
         </div>
-        <div className='login'>login</div>
+        {isDropdownOpen && (
+          <div className='domains-dropdown'>
+            <div>Engineering</div>
+            <div>Management</div>
+          </div>
+        )}
+      </div>
+      <div className='search'>
+        <input
+          type="text"
+          placeholder="Search..."
+        />
+      </div>
+      <div className='right'>
+        <div className='profile'>👤</div>
+        <div className='notifications'>💬</div>
       </div>
     </div>
-
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
