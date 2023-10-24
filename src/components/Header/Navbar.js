@@ -3,9 +3,15 @@ import './navbar.css';
 
 function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [Domains, setDomains] = useState('Domains');
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const handleDomainClick = (domain) => {
+    setDomains(domain);
+    setIsDropdownOpen(false); 
   };
 
   return (
@@ -13,12 +19,12 @@ function Navbar() {
       <div className='logo'>logo</div>
       <div className='domains'>
         <div className='domains-header' onClick={toggleDropdown}>
-          Domains ▼
+          {Domains} ▼
         </div>
         {isDropdownOpen && (
           <div className='domains-dropdown'>
-            <div>Engineering</div>
-            <div>Management</div>
+            <div onClick={() => handleDomainClick('Engineering')}>Engineering</div>
+            <div onClick={() => handleDomainClick('Management')}>Management</div>
           </div>
         )}
       </div>

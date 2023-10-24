@@ -159,10 +159,9 @@
 
 .circle {
   width: 160px;
-  height: 160px;
   text-align: center;
   vertical-align: middle;
-  color: black;
+  color: white;
   padding: 40px 2px;
   text-align: center;
   font-family: 'Poppins';
@@ -173,10 +172,10 @@
   letter-spacing: 2px;
   font-weight: 800;
   font-size: 35px;
-  color:black;
-  background-color: #FF5800;
+  color:white;
+  background-color: #006eff;
  
 }
 .ftco_counter{
-  background-color: #FF5800;
+  background-color: #006eff;
 }
