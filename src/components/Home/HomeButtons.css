@@ -1,0 +1,52 @@
+.Home_Button{
+    color: white;
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 72px;
+    margin-top: 72px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.But{
+    display: flex;
+    margin-left: 48px;
+    margin-bottom: 16px;
+}
+
+
+.custom-button {
+    background: transparent;
+    color: white;
+    border: 0.75px solid rgb(123, 104, 104); /* Initial border color */
+    padding: 10px 20px;
+   width: 300px;
+   height: 64px;
+    cursor: pointer;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    border-radius:12px;
+    margin-left: 16px;
+    /* justify-content: left;
+    align-items: start;
+    justify-items: start; */
+  }
+  
+  .red:hover {
+    border-color: rgb(247, 107, 107); /* Border color on hover */
+    
+  }
+
+
+  .yellow:hover {
+    border-color: yellow; /* Border color on hover */
+  }
+
+
+  .green:hover {
+    border-color: rgb(124, 244, 124); /* Border color on hover */
+  }
+
+  
+  
+  
+  
