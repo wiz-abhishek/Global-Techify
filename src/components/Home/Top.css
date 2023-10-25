@@ -1,0 +1,36 @@
+.Top{
+    margin-left: 20px;
+}
+
+.first{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* sfont-size: 96px; */
+    margin-left: 4%;
+    font-family: sans-serif;
+    padding-top: 96px;
+    /* margin-bottom: 64px; */
+    /* padding-bottom: 72px; */
+}
+
+.head-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.high{
+    padding-left: 8px;
+    font-size: 48px;
+    color: #FF5800;
+}
+
+.bottom{
+    margin-left: 4%;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 72px;
+    
+}
