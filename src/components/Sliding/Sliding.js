@@ -32,7 +32,7 @@ function Sliding() {
       <div className='prevbutton'style={{'width':'5vw'}}>
         <button style={{'background':'black','height':'100%','width':'100%','border':'none','color':'white','font-size':'3rem'}}onClick={goToPreviousSlide}>{"<"}</button>
       </div>
-      <Sliding1 />
+      <CurrentSlide />
       <div className='nextbutton' style={{'width':'5vw'}}>
         <button style={{'background':'black','height':'100%','width':'100%','border':'none','color':'white','font-size':'3rem'}} onClick={goToNextSlide}>{">"}</button>
       </div>
