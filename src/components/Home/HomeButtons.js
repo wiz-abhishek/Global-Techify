@@ -14,9 +14,9 @@ function HomeButtons() {
             </div>
 
             <div class="But">
-                <button class="custom-button red">Build Connections</button>
-                <button class="custom-button yellow">Interview preperation</button>
-                <button class="custom-button green">Learn</button>
+                <div><button class="custom-button red">Build Connections</button></div>
+                <div><button class="custom-button yellow">Interview preperation</button></div>
+                <div><button class="custom-button green">Learn</button></div>
                 {/* <button class="custom-button yellow">Hover Me</button> */}
             </div>
 
