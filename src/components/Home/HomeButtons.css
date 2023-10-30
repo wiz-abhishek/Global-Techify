@@ -26,7 +26,6 @@
     transition: border-color 0.3s; /* Smooth transition for border color */
     border-radius:12px;
     margin-left: 16px;
-    
     justify-items: start; 
   }
   
