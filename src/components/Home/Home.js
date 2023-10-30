@@ -4,6 +4,7 @@ import Counter from '../Counter/Counter'
 import Top from './Top'
 import HomeButtons from './HomeButtons'
 import Why from './Why'
+import Sliding from '../Sliding/Sliding'
 function Home() {
   return (
 
@@ -12,6 +13,9 @@ function Home() {
       <HomeButtons/>
       <Counter/>
       <Why/>
+      <Sliding  />
+
+      
     </div>
   )
 }

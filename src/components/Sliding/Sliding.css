@@ -1,0 +1,57 @@
+.sliding{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.text{
+    height: 100%;
+    width: 50%;
+padding: 15vh 0vh 0vh 8vh ;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.8rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+
+.mobileappview{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+}
+.mobileappview img{
+    height: 75%;
+    width: 50%;
+    border: 4px solid grey;
+    border-radius: 40px;
+    
+
+}
+@media (max-width:950px){
+    .text{
+width: 100%;
+        font-size: 2.5rem;
+padding: 10vh 0vh 0vh 0vh ;
+
+    }
+    .sliding{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        background-color: black;
+    }
+    .mobileappview{width: 100%;}
+.mobileappview img{
+height: 80%;
+padding: 5px;
+}
+
+}

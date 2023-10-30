@@ -26,9 +26,8 @@
     transition: border-color 0.3s; /* Smooth transition for border color */
     border-radius:12px;
     margin-left: 16px;
-    /* justify-content: left;
-    align-items: start;
-    justify-items: start; */
+    
+    justify-items: start; 
   }
   
   .red:hover {
