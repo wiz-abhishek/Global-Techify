@@ -4,6 +4,11 @@
     justify-content: center;
    
 }
+.head1{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
 .h1{
     size: 32px;
 }
@@ -22,12 +27,15 @@
     color: white;
     display: flex;
     background-color: black;
-    margin-bottom: 0px;
+    margin-bottom: 24px;
     align-items: center;
     /* width: 70%; */
     /* border: blueviolet solid 3px; */
-    padding-right: 20%;
-    
+    /* padding-right: 20%; */
+    margin-right: 20%;
+    margin-left: 3%;
+    border: #006eff solid 2px;
+    border-radius: 20px;
 }
 
 
@@ -36,27 +44,51 @@
 }
 
 .card3{
-    background-color: black;
     color: white;
-    margin-bottom: 0px;
-    padding-right: 20%;
+    display: flex;
+    background-color: black;
+    margin-bottom: 24px;
+    align-items: center;
+    /* width: 70%; */
+    /* border: blueviolet solid 3px; */
+    /* padding-right: 20%; */
+    margin-right: 20%;
+    margin-left: 3%;
+    border: #006eff solid 2px;
+    border-radius: 20px;
 }
 
 .card4{
-    background-color: black;
     color: white;
-    margin-bottom: 0px;
-    padding-left: 20%;
+    display: flex;
+    background-color: black;
+    margin-bottom: 24px;
+    align-items: center;
+    /* width: 70%; */
+    /* border: blueviolet solid 3px; */
+    /* padding-right: 20%; */
+    margin-left: 20%;
+    margin-right: 3%;
+    border: #006eff solid 2px;
+    border-radius: 20px;
 }
 
 .card2{
-    background-color: black;
     color: white;
-    margin-bottom: 0px;
-    padding-left: 20%;
+    display: flex;
+    background-color: black;
+    margin-bottom: 24px;
+    align-items: center;
+    /* width: 70%; */
+    /* border: blueviolet solid 3px; */
+    /* padding-right: 20%; */
+    margin-left: 20%;
+    margin-right: 3%;
+    border: #006eff solid 2px;
+    border-radius: 20px;
 }
 
-.card{
+.why-card{
     border: none;
     background-color: black;
 }
@@ -67,3 +99,4 @@ element.style {
     border-right-width: 0px;
     border-left-width: 0px;
 }
+
