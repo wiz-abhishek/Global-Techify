@@ -100,3 +100,12 @@ element.style {
     border-left-width: 0px;
 }
 
+@media (max-width: 786px) {
+    .tf{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
