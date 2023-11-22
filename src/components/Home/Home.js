@@ -15,7 +15,6 @@ function Home() {
       <Counter/>
       <Why/>
       <Sliding  />
-      <Footer/>
       
     </div>
   )

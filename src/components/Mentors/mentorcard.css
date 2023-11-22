@@ -1,0 +1,57 @@
+.mentorcard{
+    background-color:black;
+    box-shadow: 5px 5px 20px 5px rgb(0, 76, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+}
+.mentorpic{
+    width: fit-content;
+height: 100%;
+margin: 0.5rem;
+padding: 1rem 2rem;
+overflow: hidden;
+border-right: 1px solid white ;
+}
+.mentorpic img{
+   
+    width: 10rem;
+height: 10rem;
+border-radius: 100%;
+}
+.mentordesc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+}
+.mentorname{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.mentorfield{
+    font-size: 1.4rem;
+}
+.mentorabout{
+    font-size: 0.9rem;
+}
+.mentorabout button{
+    border: none;
+    background-color: black;
+    color: blue;
+}
+.mentorprice{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-left: 1px solid white;
+    padding: 0.5rem;
+    margin: 10px;
+}
+.mentorpackages{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
