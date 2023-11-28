@@ -36,10 +36,10 @@ function Navbar() {
       </div>
       <div className='right'>
         <div className='profile'>👤</div>
-        <div className='notifications'>💬</div>
+        {/*  <div className='notifications'>💬</div> */ }
       </div>
     </div>
   );
-}
 
+        }
 export default Navbar;

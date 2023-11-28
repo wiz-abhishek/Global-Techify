@@ -8,7 +8,7 @@
     width: 100%;
 }
 .mentorhead{
-    padding: 1rem;
+    margin-left: 5%;
 }
 .mentor-head-text{
     font-size: 3rem;
@@ -19,12 +19,26 @@
 .mentor-head-subtext{
     font-size: 1.5rem;
 }
-.mentors{
-    padding-top: 2rem;
+
+.mentortype{
+    font-size: 3rem;
     display: flex;
-    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 3%;
+    
+}
+.mentors{
+    padding-bottom: 2rem;
+    display: flex;
+    /* flex-direction: column; */
     width: 100%;
     justify-content: center;
     align-items: center;
     gap: 3rem;
+}
+
+.mentor_main{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
 }
