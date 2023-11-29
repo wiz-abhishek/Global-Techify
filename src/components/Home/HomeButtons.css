@@ -20,7 +20,7 @@
     color: white;
     border: 0.75px solid rgb(123, 104, 104); /* Initial border color */
     padding: 10px 20px;
-   width: 300px;
+   width: 500px;
    height: 64px;
     cursor: pointer;
     transition: border-color 0.3s; /* Smooth transition for border color */
@@ -30,19 +30,19 @@
   }
   
   .red:hover {
-    border-color: rgb(247, 107, 107); /* Border color on hover */
+    border-color: #006eff; /* Border color on hover */
     
   }
 
 
-  .yellow:hover {
-    border-color: yellow; /* Border color on hover */
+  /* .yellow:hover {
+    border-color: yellow; 
   }
 
 
   .green:hover {
-    border-color: rgb(124, 244, 124); /* Border color on hover */
-  }
+    border-color: rgb(124, 244, 124); 
+  } */
 
   @media (max-width: 1000px) {
     .But {

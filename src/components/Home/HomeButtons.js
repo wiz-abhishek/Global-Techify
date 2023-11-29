@@ -1,25 +1,18 @@
 import React from 'react'
 import './HomeButtons.css'
+import Mentors from '../Mentors/Mentors'
+import {Link} from "react-router-dom"
 
 function HomeButtons() {
     return (
         <div class="Home_Button">
 
             <div class="But">
-                <div><button class="custom-button red">Get Mentorship</button></div>
-                <div><button class="custom-button yellow">Opportunity</button></div>
-                <div><button class="custom-button green">Participate in Hackathons</button></div>
-                {/* <div><button class="custom-button yellow">Hover Me</button></div> */}
-
+                <div>
+                <Link to="/Mentors">
+                <button class="custom-button red">Get Mentorship</button>
+                </Link></div>
             </div>
-
-            <div class="But">
-                <div><button class="custom-button red">Build Connections</button></div>
-                <div><button class="custom-button yellow">Interview preperation</button></div>
-                <div><button class="custom-button green">Learn</button></div>
-                {/* <button class="custom-button yellow">Hover Me</button> */}
-            </div>
-
         </div>
     )
 }

@@ -9,6 +9,8 @@
     margin-top: 32px;
 }
 
+
+
 .h1{
     size: 32px;
 }
@@ -24,9 +26,9 @@
     
 
 .card1{
-    color: white;
+    color: black;
     display: flex;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.839) ;
     margin-bottom: 24px;
     align-items: center;
     /* width: 70%; */
@@ -39,14 +41,14 @@
 }
 
 
-.why{
-    background-color: black;
-}
+/* .why{
+    background-color: white;
+} */
 
 .card3{
-    color: white;
+    color: black;
     display: flex;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.839) ;
     margin-bottom: 24px;
     align-items: center;
     /* width: 70%; */
@@ -59,9 +61,9 @@
 }
 
 .card4{
-    color: white;
+    color: black;
     display: flex;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.839) ;
     margin-bottom: 24px;
     align-items: center;
     /* width: 70%; */
@@ -71,12 +73,13 @@
     margin-right: 3%;
     border: #006eff solid 2px;
     border-radius: 20px;
+    padding-left: 3%;
 }
 
 .card2{
-    color: white;
+    color: black;
     display: flex;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.839) ;
     margin-bottom: 24px;
     align-items: center;
     /* width: 70%; */
@@ -86,6 +89,7 @@
     margin-right: 3%;
     border: #006eff solid 2px;
     border-radius: 20px;
+    padding-left: 2%;
 }
 
 .why-card{

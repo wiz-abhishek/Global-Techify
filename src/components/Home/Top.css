@@ -21,8 +21,8 @@
 }
 
 .high{
+    display: flex;
     padding-left: 8px;
-    font-size: 48px;
     color: #006eff;
 }
 
@@ -35,16 +35,12 @@
     
 }
 
-@keyframes slide-left {
-    /* use % to specify the animation at different stages (in this case, 0% and 100%) */
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      /* adjust the value to control how much the text moves */
-      transform: translateX(0px);
-    }
+@keyframes fadeIn {
+    0% { opacity: 0; } /* Start with transparency */
+      50% {opacity: 1;}
+      100% { opacity: 0; } /* Fade out */
   }
+  
 
   
   /* The element to apply the animation to */
@@ -52,6 +48,8 @@
     /* width: 100px;
     height: 100px; */
     /* background-color: red; */
-    animation-name: slide-left;
-    animation-duration: 4s;
+    opacity: 0;
+    animation: fadeIn 2s infinite;
+    /* animation-duration: 2s infinite ease-in-out; */
   }
+
