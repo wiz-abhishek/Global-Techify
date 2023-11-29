@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import Counter from '../Counter/Counter'
-import Footer from '../Footer/Footer'
+import Wanttojoin from '../Become_A_Mentor/wanttojoin' 
 import Top from './Top'
 import HomeButtons from './HomeButtons'
 import Why from './Why'
@@ -14,6 +14,8 @@ function Home() {
       <HomeButtons/>
       <Counter/>
       <Why/>
+      <Wanttojoin/>
+
       <Sliding  />
       
     </div>
