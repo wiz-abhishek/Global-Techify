@@ -6,6 +6,8 @@
     flex-wrap: wrap;
     /* flex-direction: row; */
     width: 90%;
+    color: white;
+    
 }
 .mentorpic{
     display: flex;
@@ -66,3 +68,4 @@ border-radius: 80%;
     font-size: 1.5rem;
     font-weight: bold;
 } */
+
