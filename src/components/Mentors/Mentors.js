@@ -18,11 +18,13 @@ function Mentors() {
                 <h2>SDE</h2>
             </div>
             <div className='mentor_main'>
+            
                 <div className='mentors'>
                     <MentorCard />
                     <MentorCard />
                     <MentorCard />
                 </div>
+                
                 <div className='mentors'>
                     <MentorCard />
                     <MentorCard />
