@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './mentorcard.css'
 import IMG from '../../components/Sliding/ss/Connect.png'
+import { Link } from 'react-router-dom';
 const MentorCard = () => {
     const maxWords = 10;
     const [showMore, setShowMore] = useState(false);
@@ -12,6 +13,7 @@ const MentorCard = () => {
     const displayWords = showMore ? words : words.slice(0, maxWords);
 
     return (
+        <Link to="/MentorInfo" style={{textDecoration:'none'}}>
         <div className="mentorcard">
             <div className="mentorpic">
                 <img src={IMG} alt='' />
@@ -34,6 +36,7 @@ const MentorCard = () => {
               <div className=' mentorpackages-allaccess '>  All Access : 1 Session X 60min : Rs.3000 </div> 
             </div>
         </div>
+        </Link>
     );
 };
 

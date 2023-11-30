@@ -5,6 +5,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     /* flex-direction: row; */
+    color: white;
     width: 90%;
 }
 .mentorpic{
