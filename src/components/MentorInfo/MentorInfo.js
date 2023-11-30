@@ -1,14 +1,16 @@
 import React from "react";
 import IMG from './meneeimg.jpeg'
 import './mentorInfo.css'
-import price from "./PriceCard";
+import PriceCard from "./PriceCard";
 
 function MentorInfo() {
     return (
         <div>
-            <div className="top">
-                <img className="mentorimg" src={IMG} alt='' />
-                <h2>Vinod Keni</h2>
+            <div className="top flex justify-evenly ">
+                <div>
+                <img className="mentorimg justify-center items-center" src={IMG} alt='' />
+                <h2>Vinod Keni</h2></div>
+                <PriceCard/>
             </div>
             <div className="about">
                 <h2>About</h2>

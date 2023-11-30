@@ -3,58 +3,13 @@ import React from "react"
 
 function price() {
     return (
-        <div>
-            <h2>Hello</h2>
-        </div>
-
-        // <div class="cards">
-
-        //     <article class="plan [ card ]">
-        //         <div class="inner">
-
-        //             <span class="pricing">
-        //                 <span>
-        //                     $56 <small>/ m</small>
-        //                 </span>
-        //             </span>
-        //             <h2 class="title">Professional</h2>
-        //             <p class="info">This plan is for those who have a team already and running a large business.</p>
-        //             <ul class="features">
-        //                 <li>
-        //                     <span class="icon">
-        //                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-        //                             <path fill="none" d="M0 0h24v24H0z" />
-        //                             <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" fill="currentColor" />
-        //                         </svg>
-        //                     </span>
-        //                     <span><strong>20</strong> team members</span>
-        //                 </li>
-        //                 <li>
-        //                     <span class="icon">
-        //                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-        //                             <path fill="none" d="M0 0h24v24H0z" />
-        //                             <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" fill="currentColor" />
-        //                         </svg>
-        //                     </span>
-        //                     <span>Plan <strong>team meetings</strong></span>
-        //                 </li>
-        //                 <li>
-        //                     <span class="icon">
-        //                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-        //                             <path fill="none" d="M0 0h24v24H0z" />
-        //                             <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" fill="currentColor" />
-        //                         </svg>
-        //                     </span>
-        //                     <span>File sharing</span>
-        //                 </li>
-        //             </ul>
-        //             <button class="button">
-        //                 Choose plan
-        //             </button>
-        //         </div>
-        //     </article>
-
-        // </div>
+     
+     <div className="flex hover:border-white hover:bg-blue-950  duration-200  gap-3 flex-col border-1 border-cyan-300 rounded-lg bg-black  py-3 px-3">
+<div className=" text-2xl font-cursive font-semibold m-1 ">Packages</div>
+<div className=" border-1 flex rounded-lg justify-center hover:scale-105 duration-200 hover:bg-gray-800 items-center px-4 py-2 gap-3"><div className="flex-col "><div className="font-semibold text-lg">Regular</div> <div className=" text-sm"> 1session x 30mins</div></div><div className="bg-blue-700 px-3 py-1 rounded-lg">Rs1250</div></div>
+<div className=" border-1 flex rounded-lg px-4 py-2  hover:scale-105 duration-200 hover:bg-gray-800 justify-center gap-3 items-center"><div className="flex-col"><div className="font-semibold">All Access</div> <div className=" text-sm"> 1session x 60mins</div></div><div className="bg-blue-700 px-3 py-1 rounded-lg">Rs2000</div></div>
+     <button className="rounded-lg p-1 hover:bg-blue-950 duration-200 hover:scale-105 bg-cyan-500">All Packages</button>
+     </div>
     )
 }
 
