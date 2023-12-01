@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
+import Authentication from '../Authentication/Authenticaion';
 
 function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -37,6 +38,7 @@ function Navbar() {
       <div className='right'>
         <div className='profile'>👤</div>
         {/*  <div className='notifications'>💬</div> */ }
+        <Authentication/>
       </div>
     </div>
   );
