@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import Mentors from './Mentors/Mentors';
 import MentorInfo from './MentorInfo/MentorInfo';
 import Mentorform from './Become_A_Mentor/mentorform'
+import OurTeam from './OurTeam/OurTeam';
 function Page() {
   return (
     <Routes>
@@ -14,6 +15,7 @@ function Page() {
       <Route path="/mentors" element={<Mentors />} />
       <Route path="/mentorInfo" element={<MentorInfo />} />
       <Route path="/mentorform" element={<Mentorform />} />
+      <Route path="/ourteam" element={<OurTeam />} />
     </Routes>
   );
 }
