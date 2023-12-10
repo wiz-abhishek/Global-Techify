@@ -8,7 +8,9 @@
     color: white;
     width: 90%;
     color: white;
-    
+    border-radius: 3%;
+    /* gap: 0px ; */
+    /* margin: 10px; */
 }
 .mentorpic{
     display: flex;
@@ -25,7 +27,7 @@ margin-top: 8%;
    
     width: 10rem;
 height: 10rem;
-border-radius: 80%;
+border-radius: 100%;
 
 }
 .mentordesc{
@@ -48,6 +50,7 @@ border-radius: 80%;
 }
 .mentorabout{
     font-size: 0.9rem;
+    margin-left: 14px;
 }
 .mentorabout button{
     border: none;

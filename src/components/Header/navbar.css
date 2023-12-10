@@ -6,14 +6,14 @@
     align-items: center;
     padding: 0vh 2vw;
 }
-.logo{
+.nav-items{
     display: flex;
     height: 100%;
     width: 100px;
     align-items: center;
 }
 .search input{
-    width: 40vw;
+    width: 20vw;
     margin-right: 4vw;
     margin-left: 4vw;
     border-radius: 20px;
@@ -98,3 +98,6 @@ background: #006eff;
   
   /* Rest of your existing styles */
   
+  .nav-items{
+    color: white;
+  }

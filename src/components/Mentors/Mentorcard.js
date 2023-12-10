@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './mentorcard.css'
 import IMG from '../../components/Sliding/ss/Connect.png'
 import { Link } from 'react-router-dom';
-const MentorCard = () => {
+const MentorCard = (props) => {
     
     const maxWords = 10;
     const [showMore, setShowMore] = useState(false);
@@ -17,10 +17,10 @@ const MentorCard = () => {
         <Link to="/MentorInfo" style={{textDecoration:'none'}}>
         <div className="mentorcard">
             <div className="mentorpic">
-                <img src={IMG} alt='' />
+                <img src={props.img} alt='' />
             </div>
             <div className="mentordesc">
-                <div className="mentorname ">Vinod Keni</div>
+                <div className="mentorname ">{props.name}</div>
                 <div className="mentorfield">Investor, Entrepreneur& Mentor</div>
                 <div className="mentorabout">{displayWords.join(' ')}{!showMore && words.length > maxWords && '...'}
 

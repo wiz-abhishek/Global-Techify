@@ -110,7 +110,7 @@ ul {
 }
 .footer-widget ul li a {
   color: #878787;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .subscribe-form {
   position: relative;
@@ -160,4 +160,8 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
+}
+
+.linker{
+  text-decoration: none;
 }

@@ -14,7 +14,7 @@ function ContactUs() {
                 </div>
             </div>
             <div className='bg-black text-white ' >
-            <Form>
+            <Form className="ml-48 mr-48 pb-20 pt-10">
       <Form.Group className="mb-3" >
         <Form.Label>Name</Form.Label>
         <Form.Control type="text" placeholder="Name" />

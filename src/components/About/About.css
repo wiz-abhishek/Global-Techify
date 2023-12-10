@@ -1,3 +1,52 @@
-.about{
+/* .about{
     height: 100vh;
+} */
+
+.vis{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 20%;
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: #006eff solid 1px;
+    border-radius: 16px;
+    width: 40%;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    margin: 4%;
+    padding: 2%;
+
+    
+}
+
+
+
+.headi{
+    display: flex;
+    justify-content: center;
+    color: white; 
+    padding-bottom: 6px;
+}
+
+.main-heading{
+    color: #006eff;
+}
+
+.card:hover {
+    border-color: white;
+
+    .headi{
+        color: #006eff;
+    }
+  }
+
+
+
+  
+  .about{
+    padding-left: 10%;
+    padding-right: 10%;}

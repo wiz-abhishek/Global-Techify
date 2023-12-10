@@ -20,7 +20,7 @@
     color: white;
     border: 0.75px solid rgb(123, 104, 104); /* Initial border color */
     padding: 10px 20px;
-   width: 500px;
+   width: 300%;
    height: 64px;
     cursor: pointer;
     transition: border-color 0.3s; /* Smooth transition for border color */
