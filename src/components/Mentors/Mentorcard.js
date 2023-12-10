@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './mentorcard.css'
 import IMG from '../../components/Sliding/ss/Connect.png'
-import {Link} from "react-router-dom"
+import { Link } from 'react-router-dom';
 const MentorCard = () => {
     
     const maxWords = 10;
@@ -14,7 +14,7 @@ const MentorCard = () => {
     const displayWords = showMore ? words : words.slice(0, maxWords);
 
     return (
-        <Link to="/MentorInfo" style={{ textDecoration: 'none' }}>
+        <Link to="/MentorInfo" style={{textDecoration:'none'}}>
         <div className="mentorcard">
             <div className="mentorpic">
                 <img src={IMG} alt='' />
