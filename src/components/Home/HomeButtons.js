@@ -8,7 +8,7 @@ function HomeButtons() {
         <div class="Home_Button">
 
             <div class="But">
-                <div>
+                <div className='mentbut'>
                 <Link to="/Mentors">
                 <button class="custom-button red">Get Mentorship</button>
                 </Link></div>
