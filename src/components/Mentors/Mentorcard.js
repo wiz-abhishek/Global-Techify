@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './mentorcard.css'
-import IMG from '../../components/Sliding/ss/Connect.png'
 import { Link } from 'react-router-dom';
 const MentorCard = (props) => {
     

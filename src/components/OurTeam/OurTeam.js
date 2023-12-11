@@ -6,6 +6,7 @@ import Ritwij from './Images/Ritiwij_Singh.jpeg'
 import amisha from './Images/Amisha.png'
 import swatantra from './Images/swatantra.jpeg'
 import Vineet from './Images/vineet.jpeg'
+import Apoorv from './Images/Apoorv.jpg'
 function OurTeam() {'./Images/abhi.jpg'
     return (
         <div>
@@ -29,7 +30,7 @@ function OurTeam() {'./Images/abhi.jpg'
             <div className='bg-black'>
                 <div className=' w-[100%] flex flex-wrap justify-center items-center text-white font-semibold font-serif text-5xl underline' >Team Members</div>
                 <div className='p-20 flex flex-wrap justify-center items-center gap-3'>
-                <Link to="" style={{ textDecoration: 'none' }}><TeamMemberCard name="Apoorv Dubey" position="Technical Executive" /></Link>
+                <Link to="https://www.linkedin.com/in/apoorv-dubey-a5b4ab26a/" style={{ textDecoration: 'none' }}><TeamMemberCard img={Apoorv} name="Apoorv Dubey" position="Technical Executive" /></Link>
                 <Link to="https://www.linkedin.com/in/abhishek-shukla-350713255/" style={{ textDecoration: 'none' }}><TeamMemberCard img={abhi} name="Abhishek Shukla" position="Technical Executive" /></Link>
                     {/* <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" /> */}
                 </div>
