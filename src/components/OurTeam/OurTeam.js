@@ -1,7 +1,12 @@
 import React from 'react'
 import TeamMemberCard from './TeamMemberCard'
-
-function OurTeam() {
+import { Link } from 'react-router-dom'
+import abhi from './Images/abhi.jpg'
+import Ritwij from './Images/Ritiwij_Singh.jpeg'
+import amisha from './Images/Amisha.png'
+import swatantra from './Images/swatantra.jpeg'
+import Vineet from './Images/vineet.jpeg'
+function OurTeam() {'./Images/abhi.jpg'
     return (
         <div>
             <div className='h-[50vh] w-[100%] bg-black gap-4 flex flex-col justify-center items-center  '>
@@ -16,25 +21,25 @@ function OurTeam() {
             <div className='bg-black'>
                 <div className=' w-[100%] flex justify-center items-center text-white font-semibold font-serif text-5xl underline' >Leadership</div>
                 <div className='p-20 flex flex-wrap justify-center items-center gap-3'>
-                    <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" />
-                    <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" />
-                    <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" />
+                   <Link to ="https://www.linkedin.com/in/amisha-prajapati-7b4aa9200" style={{ textDecoration: 'none' }}> <TeamMemberCard img={amisha} name="Amisha Prajapati" position="Technical Executive" /></Link>
+                    <Link to="https://www.linkedin.com/in/ritiwij-singh-69a6b4226" style={{ textDecoration: 'none' }}><TeamMemberCard img={Ritwij} name="Ritiwij Singh" position="Technical Executive" /></Link>
+                    <Link to="https://www.linkedin.com/in/vineet-soni-00997222a" style={{ textDecoration: 'none' }}><TeamMemberCard img={Vineet} name="Vineet Soni" position="Technical Executive" /></Link>
                 </div>
             </div>
             <div className='bg-black'>
                 <div className=' w-[100%] flex flex-wrap justify-center items-center text-white font-semibold font-serif text-5xl underline' >Team Members</div>
                 <div className='p-20 flex flex-wrap justify-center items-center gap-3'>
-                    <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" />
-                    <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" />
-                    <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" />
+                <Link to="" style={{ textDecoration: 'none' }}><TeamMemberCard name="Apoorv Dubey" position="Technical Executive" /></Link>
+                <Link to="https://www.linkedin.com/in/abhishek-shukla-350713255/" style={{ textDecoration: 'none' }}><TeamMemberCard img={abhi} name="Abhishek Shukla" position="Technical Executive" /></Link>
+                    {/* <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" /> */}
                 </div>
             </div>
             <div className='bg-black'>
                 <div className=' w-[100%] flex justify-center items-center text-white font-semibold font-serif text-5xl underline' >Consultant and Advisor</div>
                 <div className='p-20 flex flex-wrap justify-center items-center gap-3'>
-                    <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" />
-                    <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" />
-                    <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" />
+                    <TeamMemberCard img={swatantra} name="Swatantra Soni" position="Technical Executive" />
+                    {/* <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" />
+                    <TeamMemberCard name="Apoorv Dubey" position="Technical Executive" /> */}
                 </div>
             </div>
 

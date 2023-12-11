@@ -1,33 +1,37 @@
 import React from 'react'
 import './Why.css'
+import a247 from './images/247.jpeg'
+import hack from './images/hack.jpeg'
+import inter from './images/inter.jpeg'
+import men from './images/men.jpeg'
 
 function Why() {
     return (
         <div class="why">
-        <div class="head1">
-        <h1 class="heading">Why Global Techify</h1>
-        </div>
-            
+            <div class="head1">
+                <h1 class="heading">Why Global Techify</h1>
+            </div>
+
             <div class="why-card">
                 <div class="tf card1">
-                    <img class="image" src="https://www.pw.live/version14/assets/img/group-20360.svg" />
-                    Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
+                    <img class="image" className="rounded-3xl h-40 w-72 mr-8" src={men} />
+                    Career Mentorship Network : Our platform connects students with industry experts who can provide guidance and insights about the latest technology trends and developments. Our goal is to help students stay up-to-date with the latest advancements and prepare them for successful careers in the tech industry.
                 </div>
-                <p class="tf card2">
-                    
-                    Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
-                
-                    <img src="https://www.pw.live/version14/assets/img/group-20360.svg" /></p>
+                <div class="tf card2">
+                    24/7 Success Support : At Global Techify, we are committed to providing the best possible support to our students. Our team is available 24/7 to answer any questions or concerns you may have. We also provide a range of resources and tools to help you succeed, including online workshops, career advice, and networking opportunities.
+                    <img class="image" className="rounded-3xl h-40 w-72 ml-8" src={a247}  /></div>
                 <div class="tf card3">
-                    <img src="https://www.pw.live/version14/assets/img/group-20360.svg" />
-                    Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
+                    <img class="image" className="rounded-3xl h-40 w-72 mr-8" src={inter} />
+                    Comprehensive Interview Preparation :
+                    Develop and provide comprehensive interview preparation modules covering various industries and job positions.
+                    Include mock interview sessions and feedback to enhance practical skills and confidence.
                 </div>
-                <p class="tf card4">
-                    
-                    Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
-                
-                    <img src="https://www.pw.live/version14/assets/img/group-20360.svg" /></p>
-
+                <div class="tf card4">
+                    Hackathon Support :
+                    Offer specialized resources and training for hackathon participants, aiding them in developing problem-solving skills and innovative thinking.
+                    Showcase success stories of participants who have excelled in hackathons with the help of your platform.
+                    <img class="image" className="rounded-3xl h-40 w-72 ml-8" src={hack} />
+                </div>
             </div>
         </div>
 
