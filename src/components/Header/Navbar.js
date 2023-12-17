@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import './navbar.css';
 import { Link } from 'react-router-dom';
+import './navbar.css'
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
-function Navbar() {
+function Navbar1() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [Domains, setDomains] = useState('Domains');
 
@@ -12,41 +14,47 @@ function Navbar() {
 
   const handleDomainClick = (domain) => {
     setDomains(domain);
-    setIsDropdownOpen(false); 
+    setIsDropdownOpen(false);
   };
 
   return (
-    <div className='nvbr'>
-      <div className='nav-items'>logo</div>
-      <div className='domains'>
-        <div className='domains-header' onClick={toggleDropdown}>
-          {Domains} ▼
-        </div>
-        {isDropdownOpen && (
-          <div className='domains-dropdown'>
-            <div onClick={() => handleDomainClick('Engineering')}>Engineering</div>
-            <div onClick={() => handleDomainClick('Management')}>Management</div>
+    <Navbar expand="lg" className="bg-black">
+      <Navbar.Brand className='px-[1vw]'>
+        <Link to="/" className=' text-blue-600 no-underline font-bold '>Global Techify</Link>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link as={Link}  to="/" className=' text-white nav-items'm>Home</Nav.Link>
+          <Nav.Link as={Link} to="/Mentors" className=' text-white nav-items'm>Mentor</Nav.Link>
+          <Nav.Link as={Link} to="/about" className=' text-white nav-items'm>About</Nav.Link>
+          <Nav.Link as={Link} to="/contactus" className=' text-white nav-items'm>Contact</Nav.Link>
+          <Nav.Link as={Link} to="/services" className=' text-white nav-items'm>Services</Nav.Link>
+          <Nav.Link as={Link} to="/ourteam" className=' text-white nav-items'm>Our Team</Nav.Link>
+        
+        </Nav>
+        <div className='text-white hover:cursor-pointer p-2' onClick={toggleDropdown}>
+            {Domains} ▼
+          
+          {isDropdownOpen && (
+            <div className='domains-dropdown'>
+              <div onClick={() => handleDomainClick('Engineering')}>Engineering</div>
+              <div onClick={() => handleDomainClick('Management')}>Management</div>
+            </div>
+          )}
           </div>
-        )}
-      </div>
-      <div className='search'>
-        <input
-          type="text"
-          placeholder="Search..."
-        />
-      </div>
-      <Link to ="/" style={{textDecoration:'none'}}><div className='nav-items'>Home</div></Link>
-      <Link to ="/Mentors" style={{textDecoration:'none'}}><div className='nav-items'>Mentor</div></Link>
-      <Link to ="/about" style={{textDecoration:'none'}}><div className='nav-items'>About</div></Link>
-      <Link to ="/contactus" style={{textDecoration:'none'}}><div className='nav-items'>Contact</div></Link>
-      <Link to ="/services" style={{textDecoration:'none'}}><div className='nav-items'>Services</div></Link>
-      <Link to ="/ourteam" style={{textDecoration:'none'}}><div className='nav-items'>Our Team</div></Link>
-      <div className='right'>
-        <div className='profile'>👤</div>
-        {/*  <div className='notifications'>💬</div> */ }
-      </div>
-    </div>
-  );
+      
 
-        }
-export default Navbar;
+        <div className='search mx-1 '>
+          <input className='p-1 rounded-lg w-[10rem]' type="text" placeholder="Search..." />
+        </div>
+        <div className='w-fit m-2'>
+          <div className='profile'>👤</div>
+          {/* <div className='notifications'>💬</div> */}
+        </div>
+      </Navbar.Collapse>
+    </Navbar>
+  );
+}
+
+export default Navbar1;

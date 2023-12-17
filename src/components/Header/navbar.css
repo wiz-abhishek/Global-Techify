@@ -12,14 +12,7 @@
     width: 100px;
     align-items: center;
 }
-.search input{
-    width: 20vw;
-    margin-right: 4vw;
-    margin-left: 4vw;
-    border-radius: 20px;
-    border: 0px solid white;
-    padding: 7px;
-}
+
 .right{
     display: flex;
     position: absolute;
@@ -91,9 +84,7 @@ background: #006eff;
       display: flex;
     }
   
-    .search input {
-      width: 100%;
-    }
+   
   }
   
   /* Rest of your existing styles */

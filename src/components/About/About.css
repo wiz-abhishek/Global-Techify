@@ -36,13 +36,16 @@
     color: #006eff;
 }
 
-.card:hover {
-    border-color: white;
+.card {
+    &:hover {
+        border-color: white;
 
-    .headi{
-        color: #006eff;
+        .headi {
+            color: #006eff;
+        }
     }
-  }
+}
+
 
 
 
