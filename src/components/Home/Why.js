@@ -14,12 +14,12 @@ function Why() {
 
             <div class="why-card">
                 <div class="tf card1">
-                    <img class="image" className="rounded-3xl h-40 w-72 mr-8" src={men} />
-                    Career Mentorship Network : Our platform connects students with industry experts who can provide guidance and insights about the latest technology trends and developments. Our goal is to help students stay up-to-date with the latest advancements and prepare them for successful careers in the tech industry.
-                </div>
+                    <div><img class="image" className="rounded-3xl h-40 w-72 mr-8" src={men} /></div>
+                    <div class="description"><p>Career Mentorship Network : Our platform connects students with industry experts who can provide guidance and insights about the latest technology trends and developments. Our goal is to help students stay up-to-date with the latest advancements and prepare them for successful careers in the tech industry.</p></div>
+                    </div>
                 <div class="tf card2">
                     24/7 Success Support : At Global Techify, we are committed to providing the best possible support to our students. Our team is available 24/7 to answer any questions or concerns you may have. We also provide a range of resources and tools to help you succeed, including online workshops, career advice, and networking opportunities.
-                    <img class="image" className="rounded-3xl h-40 w-72 ml-8" src={a247}  /></div>
+                    <img class="image" className="rounded-3xl h-40 w-72 ml-8" src={a247} /></div>
                 <div class="tf card3">
                     <img class="image" className="rounded-3xl h-40 w-72 mr-8" src={inter} />
                     Comprehensive Interview Preparation :
