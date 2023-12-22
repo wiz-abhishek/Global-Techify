@@ -15,7 +15,7 @@ function Footer() {
                                     <i class="fas fa-map-marker-alt"></i>
                                     <div class="cta-text">
                                         <h4>Find us</h4>
-                                        <span>1010 Avenue, sw 54321, Bangkok</span>
+                                        <span>IIT BHU Varanasi, Uttar Pradesh , India</span>
                                     </div>
                                 </div>
                             </div>
@@ -24,7 +24,7 @@ function Footer() {
                                     <i class="fas fa-phone"></i>
                                     <div class="cta-text">
                                         <h4>Call us</h4>
-                                        <span>987695432100</span>
+                                        <span>+919651609214</span>
                                     </div>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@ function Footer() {
                                     <i class="far fa-envelope-open"></i>
                                     <div class="cta-text">
                                         <h4>Mail us</h4>
-                                        <span>mail@info.com</span>
+                                        <span>global.techify.info@gmail.com</span>
                                     </div>
                                 </div>
                             </div>

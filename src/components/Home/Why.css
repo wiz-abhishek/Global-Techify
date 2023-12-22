@@ -11,19 +11,24 @@
   .image {
     width: 20vw;
     height: 20vh;
-    border-radius: 12px;
-    float: left;
+    display: flex;
+  border-radius: 12px;
+  margin-bottom: 1vw;
+  margin-left: 21vw;
   }
   
   .tf {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     color: white;
     border: #006eff solid 2px;
     border-radius: 20px;
     overflow: auto;
     width: 70vw;
+    margin-left: 15vw;
     margin-bottom: 20px; /* Adjust spacing between cards */
+    padding: 2vw;
   }
   
   .description {
@@ -32,11 +37,14 @@
     width: 100%; /* Ensure the description takes full width */
   }
   
-  .description img {
-    max-width: 50%;
-    height: auto; /* Ensure proper image height */
-    border-radius: 12px; /* Apply border-radius to image */
-    margin-right: 20px; /* Add margin for spacing */
-    flex-shrink: 0; /* Prevent image from shrinking */
+ 
+
+  @media screen and (max-width:900px) {
+    .image{
+      width: 30vw;
+      height: 20vh;
+      margin-left: 18vw;
+    }
   }
+  
   
