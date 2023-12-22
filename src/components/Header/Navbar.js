@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './navbar.css'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
@@ -22,8 +21,8 @@ function Navbar1() {
       <Navbar.Brand className='px-[1vw]'>
         <Link to="/" className=' text-blue-600 no-underline font-bold '>Global Techify</Link>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-white' />
+      <Navbar.Collapse id="basic-navbar-nav " >
         <Nav className="mr-auto">
           <Nav.Link as={Link}  to="/" className=' text-white nav-items'm>Home</Nav.Link>
           <Nav.Link as={Link} to="/Mentors" className=' text-white nav-items'm>Mentor</Nav.Link>
