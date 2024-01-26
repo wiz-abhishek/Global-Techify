@@ -3,7 +3,7 @@ import './mentorcard.css'
 import { Link } from 'react-router-dom';
 const MentorCard = (props) => {
     
-    const maxWords = 10;
+    const maxWords = 8;
     const [showMore, setShowMore] = useState(false);
 
     const mentorAbout = `Venture Capital Professional, Serial Entrepreneur, Corp. Finance, CxO, Advisor, Mentor & Company Builder. US, India & SE Asia Experience. Currently - Managing Partner, Early Stage VC Fund, Fintech Entrepreneur, Advisor/Mentor, Corporate Development Services to corporate VCs, family offices, VC funds & Startups. `;
@@ -32,7 +32,7 @@ const MentorCard = (props) => {
 
             <div className="mentorprice">
               <div className=' mentorpackages '>  Packages </div>
-              <div className=' mentorpackages-regular '>  Regular : 1 Session X 30min : Rs.1500 </div>
+              <div className=' mentorpackages-regular '>  Regular :  1 Session X 30min : Rs.1500 </div>
               <div className=' mentorpackages-allaccess '>  All Access : 1 Session X 60min : Rs.3000 </div> 
             </div>
         </div>

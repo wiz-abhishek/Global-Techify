@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-
+import IMG12 from './globaltechify.jpeg'
 function Navbar1() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [Domains, setDomains] = useState('Domains');
@@ -19,7 +19,7 @@ function Navbar1() {
   return (
     <Navbar expand="lg" className="bg-black">
       <Navbar.Brand className='px-[1vw]'>
-        <Link to="/" className=' text-blue-600 no-underline font-bold '>Global Techify</Link>
+        <Link to="/" className=' text-blue-600 no-underline font-bold flex justify-center items-center gap-2'> <img src={IMG12} className='h-[3rem] rounded-full' alt='' />Global Techify</Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-white' />
       <Navbar.Collapse id="basic-navbar-nav " >
@@ -39,6 +39,7 @@ function Navbar1() {
             <div className='domains-dropdown'>
               <div onClick={() => handleDomainClick('Engineering')}>Engineering</div>
               <div onClick={() => handleDomainClick('Management')}>Management</div>
+              <div onClick={() => handleDomainClick('Management')}>Consulting</div>
             </div>
           )}
           </div>

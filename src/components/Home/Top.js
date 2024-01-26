@@ -5,7 +5,7 @@ function Top() {
         <div class="Top">
             <div class="first">
                 <div class="head-top">
-                    <h2>Crack your College Jorney </h2>
+                    <h2>Crack your College Journey </h2>
                 </div>
                 <div class="head-bottom">
                     <div>

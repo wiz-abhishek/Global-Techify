@@ -1,7 +1,6 @@
 .mentorpage{
     width: 100%;
     display: flex;
-    gap: 1rem;
     color: white;
     flex-direction: column;
     background-color: black;
@@ -18,64 +17,8 @@
 }
 .mentor-head-subtext{
     font-size: 1.5rem;
-}
-
-.mentortype{
-    font-size: 3rem;
-    display: flex;
     margin-left: 5%;
-    margin-top: 3%;
-    
 }
-.mentors{
-    padding-bottom: 2rem;
-    display: flex;
-    /* flex-direction: column; */
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    /* gap: 3rem; */
-    
-}
-
-.mentor_main{
-    display: flex;
-    flex-direction: column;
-    margin: 5%;
-}
-
-@media screen and (max-width: 767px) {
-    .mentor_main .mentors {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .mentor_main .mentors .MentorCard {
-        flex: 0 0 100%; /* Take full width */
-        margin-bottom: 20px;
-    }
-    /* Show only the first MentorCard */
-    .mentor_main .mentors .MentorCard:nth-child(n+2) {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-    .mentor_main .mentors {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .mentor_main .mentors .MentorCard {
-        flex-basis: calc(50% - 10px); /* Two cards in a row with a gap */
-        margin-bottom: 20px;
-    }
-    /* Show all MentorCards */
-    .mentor_main .mentors .MentorCard {
-        display: flex;
-    }
-    /* Hide MentorCards beyond the second one */
-    .mentor_main .mentors .MentorCard:nth-child(n+3) {
-        display: none;
-    }
+.mentortype{
+    margin-left: 5%;
 }
