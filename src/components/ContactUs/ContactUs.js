@@ -3,19 +3,19 @@ import { Form, Button } from 'react-bootstrap'
 function ContactUs() {
   return (
     <div>
-      <div className='text-5xl font-bold bg-black flex h-[50vh] w-[100%] justify-center items-center'>
+      <div className='text-5xl font-bold bg-black flex h-[30vh] w-[100%] justify-center items-center'>
         <span className=' text-white'> Contact </span>
         <span className=' text-[#006eff]'> Us </span>
       </div>
       <div className='flex justify-center items-center h-[fit-content] text-white bg-black gap-3 flex-col p-10 '>
         <div className='text-xl font-semibold'>Have any queries?</div>
-        <div className='text-4xl font-bold'>
+        <div className='text-lg sm:text-xl lg:text-2xl xl:text-3xl font-bold'>
           We're Here To Help
         </div>
       </div>
-      <div className='bg-black text-white ' >
-        <Form className="flex flex-col mx-72 pt-16 pb-72">
-          <Form.Group className="mb-3" >
+      <div className='bg-black text-white w-1/2vw ' >
+        <Form className="flex flex-col mx-10 lg:mx-72 pt-16 pb-72 w-1/2vw">
+          <Form.Group className="mb-3 " >
             <Form.Label>Name</Form.Label>
             <Form.Control type="text" placeholder="Name" />
           </Form.Group>

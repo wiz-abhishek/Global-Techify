@@ -10,8 +10,9 @@
 
 .But{
     display: flex;
-    margin-left: 48px;
+    /* margin-left: 48px; */
     margin-bottom: 16px;
+    margin-left: 5vw;
 }
 
 
@@ -20,12 +21,12 @@
     color: white;
     border: 0.75px solid rgb(123, 104, 104); /* Initial border color */
     padding: 10px 20px;
-   width: 300%;
+   width: 30vw;
    height: 64px;
     cursor: pointer;
     transition: border-color 0.3s; /* Smooth transition for border color */
     border-radius:12px;
-    margin-left: 16px;
+    /* margin-left: 16px; */
     justify-items: start; 
   }
   
@@ -35,27 +36,14 @@
   }
 
 
-  /* .yellow:hover {
-    border-color: yellow; 
-  }
 
-
-  .green:hover {
-    border-color: rgb(124, 244, 124); 
-  } */
 
   @media (max-width: 1000px) {
-    .But {
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 0px;
-      width: 10%;
+    .custom-button {
+      width: 60vw;
     }
-    .custom-button{
-      padding: 10px;
-      margin:4px
-
-    }
-
+    .But{
+      margin-left: 10vw;
+  }
     
  }
