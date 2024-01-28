@@ -14,7 +14,7 @@ function ContactUs() {
         </div>
       </div>
       <div className='bg-black text-white ' >
-        <Form className="flex flex-col mx-20">
+        <Form className="flex flex-col mx-72 pt-16 pb-72">
           <Form.Group className="mb-3" >
             <Form.Label>Name</Form.Label>
             <Form.Control type="text" placeholder="Name" />
@@ -34,7 +34,7 @@ function ContactUs() {
           </Form.Group>
 
 
-          <Button variant="primary" type="submit">
+          <Button className="mt-12" variant="primary" type="submit">
             Submit
           </Button>
         </Form>
