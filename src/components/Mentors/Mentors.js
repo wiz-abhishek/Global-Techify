@@ -23,7 +23,7 @@ import r from './images/18.jpeg'
 
 function Mentors() {
     return (
-        <div className="mentorpage">
+        <div className="mentorpage bg-black flex flex-col gap-4">
 
             <div className='mentorhead'>
                 <div className="mentor-head-text">
@@ -33,12 +33,12 @@ function Mentors() {
                     Numerous Mentors in every Domain.
                 </div>
             </div>
-            <div className='mentortype'>
+            <div className='mentortype '>
                 <h2>SDE</h2>
             </div>
-            <div className='mentor_main'>
+            <div className='mentor_main '>
             
-                <div className='mentors'>
+                <div className='mentors flex flex-wrap gap-10 justify-center '>
                     <MentorCard 
                         name="Christian Bale"
                         img={a}
@@ -51,9 +51,9 @@ function Mentors() {
                         name="Robery Downey"
                         img={c}
                     />
-                </div>
+               
                 
-                <div className='mentors'>
+                
                 <MentorCard 
                         name="Toby Maguire"
                         img={d}
@@ -74,7 +74,7 @@ function Mentors() {
                 <h2>Data Analysis/Data Science</h2>
             </div>
             <div className='mentor_main'>
-                <div className='mentors'>
+                <div className='mentors flex flex-wrap gap-10 justify-center'>
                 <MentorCard 
                         name="Jacob Batlion
                         "
@@ -88,8 +88,7 @@ function Mentors() {
                         name="Chris Evans"
                         img={i}
                     />
-                </div>
-                <div className='mentors'>
+               
                 <MentorCard 
                         name="Steven Rogers"
                         img={j}
@@ -110,7 +109,7 @@ function Mentors() {
                 <h2>Product Management</h2>
             </div>
             <div className='mentor_main'>
-                <div className='mentors'>
+                <div className='mentors flex flex-wrap gap-10 justify-center'>
                 <MentorCard 
                         name="De Caprio"
                         img={m}
@@ -124,8 +123,6 @@ function Mentors() {
                         img={o}
                     />
 
-                </div>
-                <div className='mentors'>
                 <MentorCard 
                         name="Gilli Robert"
                         img={p}
